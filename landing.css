@@ -1,0 +1,239 @@
+html{
+    height: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #2f2f4f;
+	color: white;
+}
+
+h1{
+	font-size: 4vw;
+	margin: 10px;
+}
+
+h2{
+	font-size: 28px;
+	margin-top: 0;
+}
+
+h3{
+	font-size: 32px;
+}
+
+i{
+	color: white;
+	font-size: 32px;
+	padding-right: 10px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 300px;
+	margin: 0 auto;
+	background-color: #2f4f2f;
+	padding-bottom: 40px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+label{
+	padding: 10px 23px;
+}
+
+input{
+	width: 250px;
+	margin: 0 auto;
+}
+
+button{
+	height: 40px;
+	width: 253px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#top{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	background-color: #2f4f4f;
+}
+
+#top-info{
+	flex: 0.3;
+}
+
+#top-title{
+	flex: 0.4;
+}
+
+#top-contact{
+	flex: 0.3;
+}
+
+#opener{
+	background-image: url("Paris.jpg");
+	width: 100%;
+  	height: 100vh;
+  	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-shadow: 2px 2px black;
+}
+
+#landing { 
+  /* The image used */
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#examples{
+	position: relative;
+	top: -13vw;
+	text-align: center;
+}
+
+#examples img{
+	margin: 0.4vw;
+	width: 18vw;
+	-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+#examples :nth-child(even){
+	position: relative;
+	top: 40px;
+}
+
+#examples :nth-child(3){
+	position: relative;
+	top: 80px;
+}
+
+#about-section{
+	padding-top: 9vw;
+	margin-left: 9vw;
+	margin-right: 9vw;
+}
+
+#about-title{
+	margin: 0;
+}
+
+#about-text{
+	font-size: 22px;
+}
+
+#bio{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 80px;
+	justify-content: space-between;
+}
+
+#bio-text{
+	display: flex;
+	flex-direction: column;
+}
+
+#bio #bio-text{
+	flex: 0.5;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	top: 6vw;
+	font-size: 18px;
+}
+
+#bio-picture{
+	flex: 0.4;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 25%;
+	height: 25%;
+	border-radius: 50%;
+}
+
+#form-section{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#form-section img{
+	flex: 0.5;
+	width: 40%;
+	height: 40%;
+}
+
+#form{
+	margin-left: 8vw;
+	flex: 0.5;
+	position: relative;
+	top: -50px;
+}
+
+#reachout{
+	text-align: center;
+}
+
+#form-section form{
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+	font-size: 18px;
+}
+
+#footer{
+	text-align: center;
+	background: grey;
+	margin-top: 20px;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+#footer-icons{
+	padding-top: 10px
+}
+
+#footer-section{
+	display: flex;
+	padding-top: 10px;
+}
+
+#footer-section p{
+	flex: 0.33;
+}
+
+#footer-section div{
+	flex: 0.34;
+}
+
+#footer p{
+	padding: 0;
+	margin: 0;
+}
+
+#footer-email{
+	text-align: right;
+}
