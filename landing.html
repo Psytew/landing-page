@@ -4,6 +4,7 @@
 	<title>Patrick Westervelt Photography</title>
 	<link rel="stylesheet" type="text/css" href="landing.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 <body>
 	<div id="top">
@@ -21,8 +22,12 @@
 	</div>
 	<div id="landing">
 		<div id="opener">
-			<!-- <img id="landing" src="Paris.jpg"> -->
-			<!-- <h2 id="opener-desc">Photography And Beyond</h2> -->
+			<div id="left-arrow">
+				<a onclick="newSlide(false,false)"><i class="fas fa-arrow-circle-left"></i></a>
+			</div>
+			<div id="right-arrow">
+				<a onclick="newSlide(true,false)"><i class="fas fa-arrow-circle-right"></i></a>
+			</div>
 		</div>
 		<div id="examples">
 			<img src="Ex01.jpg">
@@ -71,4 +76,5 @@
 		<p>Design by Patrick Westervelt</p>
 	</div>
 </body>
+<script src="landing.js"></script>
 </html>
